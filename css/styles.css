@@ -302,7 +302,15 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/* Clients section */
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
+.clients-list {
+  list-style: none;
+}
 /* Footer */
 
 .footer {

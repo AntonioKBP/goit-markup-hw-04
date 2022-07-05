@@ -337,6 +337,17 @@ ul {
   fill: var(--icons-color-main);
 }
 
+.team-social-link:hover,
+.team-social-link:active {
+  fill: var(--white-color);
+}
+
+.team-social-item:hover,
+.team-social-item:active {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
 /* .team-social-list {
   display: flex;
   align-items: center;

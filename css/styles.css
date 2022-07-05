@@ -310,6 +310,35 @@ ul {
 
 .team-social-list {
   display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.team-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  margin-right: 10px;
+}
+
+.team-social-item:last-child {
+  margin-right: 0;
+}
+
+.team-social-link {
+  display: flex;
+  text-decoration: none;
+  fill: var(--icons-color-main);
+}
+
+/* .team-social-list {
+  display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
@@ -338,7 +367,7 @@ ul {
 
 .icon-team-social {
   background-position: center;
-}
+} */
 .team-section-border {
   text-align: center;
   background-color: #ffffff;

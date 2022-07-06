@@ -309,9 +309,9 @@ ul {
 /* team socilal */
 .team-social-list {
   display: flex;
-  justify-content: center;
   list-style: none;
-  padding: 0;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-social-item {
@@ -331,6 +331,7 @@ ul {
   border-radius: 50%;
   color: var(--icons-color-main);
   cursor: pointer;
+  background-color: var(--white-color);
 }
 
 .icon-team-social {
@@ -473,8 +474,31 @@ ul {
 }
 
 .footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   text-decoration: none;
-  color: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-item {
+  margin-right: 10px;
+}
+
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+
+.icon {
+  fill: var(--white-color);
 }
 
 /* Portfolio section */
